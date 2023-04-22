@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo"></a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         
+         
+            <a href="login.html" class="option-btn">Student login</a>
+            <a href="login.html" class="option-btn">Professor Login</a>
+		  <a href="register.html" class="btn">register</a>
+         <div class="flex-btn">
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/Wlogo.jpg" class="image" alt="">
+      <h2 class="name" style="color: darkgoldenrod;" ><strong>Wood College</strong></h2>
+	   <p style="font-size: 15px;">Wood college is a prestigious private business college founded in 1847 in New York. This institution has a reputation for its rigorous financial course on private equity and investment banking and is consistently ranked in the top 30 Nationwide for its financial programs.  Wood College has an enrollment of 5,000 students from diverse backgrounds, making it a great place to learn from people with different perspectives and experiences. The faculty members at Wood College are award-winning and are experts in their fields, bringing a wealth of knowledge and experience to their teaching.
+
+	   </p>
+     
+   </div>
+
+</div>
+
+<section class="form-container">
+
+   <form action="students.html" method="post" enctype="multipart/form-data">
+      <h3>login now</h3>
+      <p>your email <span>*</span></p>
+      <input type="email" name="email" placeholder="enter your email" required maxlength="50" class="box">
+      <p>your password <span>*</span></p>
+      <input type="password" name="pass" placeholder="enter your password" required maxlength="20" class="box">
+      <input type="submit" value="login now" name="submit" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+    &copy; WoodCollege @ 2022  |WoodCollege@woodCollege.edu
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
